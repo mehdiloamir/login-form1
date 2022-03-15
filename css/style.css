@@ -1,0 +1,114 @@
+    * {
+        margin: 0;
+        padding: 5;
+        box-sizing: border-box;
+    }
+    
+    .body {
+        background: rgb(63, 63, 63);
+    }
+    
+    .app {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        background: white;
+        margin-top: 150px;
+        border-radius: 5px;
+        display: table;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    h1 {
+        color: black;
+        text-align: center;
+    }
+    
+    form {
+        background: rgb(255, 255, 255);
+    }
+    
+    .login {
+        width: 90%;
+        height: 300px;
+        margin-top: 40px;
+        display: table;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .check-box {
+        margin: 8 5 5 5;
+        float: left;
+        padding: 5;
+    }
+    
+    .input {
+        width: 100%;
+        margin: 10px 0px 5px 0px;
+        padding: 8;
+        border: none;
+        border-bottom: 1px solid black;
+        outline: none;
+    }
+    
+    .text-checkbox {
+        float: left;
+        padding: 2px;
+    }
+    
+    .F-password {
+        text-decoration: none;
+        color: brown;
+        float: right;
+    }
+    
+    .but {
+        width: 100%;
+        height: 40px;
+        padding: 8;
+        border-radius: 10px;
+        margin-top: 10;
+        background-color: rgb(144, 182, 251);
+        border: none;
+    }
+    
+    .but:hover {
+        background: black;
+        color: white;
+        transition: 0.8s;
+    }
+    
+    .button-sing {
+        margin-top: 5px;
+        border-radius: 10px;
+        background: rgb(255, 113, 88);
+    }
+    
+    .p3 {
+        color: white;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    /* risponse */
+    
+    @media(min-width:620px) {
+        .app {
+            width: 70%;
+        }
+    }
+    /* risponsi 800px min-width */
+    
+    @media(min-width:800px) {
+        .app {
+            width: 50%;
+        }
+    }
+    /* rispons1200px min-width */
+    
+    @media(min-width:1460px) {
+        .app {
+            width: 40%;
+        }
+    }
